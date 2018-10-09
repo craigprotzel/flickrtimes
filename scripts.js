@@ -1,3 +1,4 @@
+
 var nyTimesArticles;
 
 function makeHTML(articleObj, imgURL){
@@ -14,8 +15,7 @@ function makeHTML(articleObj, imgURL){
 
 
 function getFlickrData(nytObj){
-	console.log("About to make Flickr Request");
-	//console.log(nytObj.headline.main);
+	//console.log("About to make Flickr Request");
 
 	//Make Flickr AJAX request
 	var flickrKey = "75e24e2a0c9c6bfb33ea2993943e6c28";
